@@ -1,34 +1,5 @@
 # AML Fraud Detection Project
 
-## Opis projektu
-Projekt symuluje system wykrywania podejrzanych transakcji (AML – Anti-Money Laundering).
-
-## Technologie
-- Python (pandas, numpy, faker)
-- Power BI
-- Git
-
-## Pipeline danych
-1. generate_data.py - generowanie danych
-2. etl.py - czyszczenie danych
-3. aml_rules.py - wykrywanie fraudów
-4. analysis.py - analiza
-
-## Wyniki
-- ~30 000 transakcji
-- ~2 400 alertów (~8%)
-
-## Dane
-data/final/aml_dataset.csv
-
-## Dashboard
-Dashboard Power BI z analizą alertów i ryzyka
-
-## Autor
-Tomasz Kotliński
-
-# AML Fraud Detection Project
-
 ## Overview
 This project simulates a simple Anti-Money Laundering (AML) system used to detect suspicious financial transactions.
 The main goal was to go through a full data workflow — from generating raw data, through cleaning and processing, to detecting suspicious behavior and presenting results in a dashboard.
